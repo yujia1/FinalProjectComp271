@@ -1,12 +1,12 @@
-Hayden York 2374528465
-Jaiden Arias 3648294628
-Dereon Morris 2648372617
-Yamilet Anthony 3547392615
-Jimmy Schroeder 3546392712
-Jaelynn Choi 2536173826
-Madeleine Simon 4659382647
-Alexzander Page 2537294635
-Eleanor Gordon 1528364525
-Adrien Burnett 1527364837
-Damaris Christensen 2738493726
-Collin White 2354638293
+Hayden York:2374528465
+Jaiden Aria:3648294628
+Dereon Morris:2648372617
+Yamilet Anthony:3547392615
+Jimmy Schroeder:3546392712
+Jaelynn Choi:2536173826
+Madeleine Simon:4659382647
+Alexzander Page:2537294635
+Eleanor Gordon:1528364525
+Adrien Burnett:1527364837
+Damaris Christensen:2738493726
+Collin White:2354638293

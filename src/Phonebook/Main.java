@@ -3,35 +3,36 @@ package Phonebook;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Main {
 
-  public static void main(final String[] args) throws InterruptedException, IOException {
+  public static void main(final String[] args) throws IOException {
 
-      final Map<String, String> phoneBook = new TreeMap<>();
-      String name;
-      int number;
-      BufferedReader reader;
-      int size = phoneBook.size();
+    final Map<String, String> phoneBook = new TreeMap<>();
+    BufferedReader reader;
+    int size = phoneBook.size();
+    Scanner input = new Scanner(System.in);
 
-      System.out.println("Select a city: Chicago, New York, LA, Boston");
-      final Scanner input = new Scanner(System.in);
-      if (input.equals("Chicago")) {
-        reader = new BufferedReader(new FileReader("Chicago.txt"));
-        String line = reader.readLine();
-        while (line != null) {
-          String[] splitLine = line.split(" ");
-          for(String pair: splitLine) {
-            phoneBook.put(splitLine[0], splitLine[1]);
-          }
+    System.out.println("Select a city: Chicago, New York, LA, Boston");
+    String city = input.nextLine();
+    if (city.equals("Chicago")) {
+      reader = new BufferedReader(new FileReader("C:\\Users\\Karolina\\IdeaProjects\\Final Project 271\\src\\Phonebook\\Chicago.txt"));
+      String line = reader.readLine();
 
-
+      while (line != null) {
+        String[] splitLine = line.split(":");
+        line = reader.readLine();
+        for (String pair : splitLine) {
+          phoneBook.put(splitLine[0], splitLine[1]);
         }
-
-
       }
     }
+
+      ArrayList<Map.Entry<String, String>> arr = new ArrayList<>(size);
+      arr.addAll(phoneBook.entrySet());
+      for (Map.Entry<String, String> mapEntry : arr) {
+        System.out.println(mapEntry);
+    }
   }
+}
