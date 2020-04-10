@@ -16,7 +16,7 @@ public class Main {
 
     System.out.println("Select a city: Chicago, New York, LA, Boston");
     String city = input.nextLine();
-    if (city.equals("Chicago")) {
+    if (city.equalsIgnoreCase("Chicago")) {
       reader = new BufferedReader(new FileReader("C:\\Users\\Karolina\\IdeaProjects\\Final Project 271\\src\\Phonebook\\Chicago.txt"));
       String line = reader.readLine();
 
