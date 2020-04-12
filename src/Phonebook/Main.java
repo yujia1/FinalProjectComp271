@@ -22,9 +22,11 @@ public class Main {
 
     System.out.println("Select a city: Chicago, New York, LA, Boston");
     String city = input.nextLine();
+    System.out.println("Select a business: restaurants, emergency services, schools, companies");
+    String business = input.nextLine();
 
-    if (city.equalsIgnoreCase("Chicago")) {
-      File dataFile = new File(userHomeDirectory + File.separator + "src" + File.separator + "Phonebook" + File.separator + "Chicago.txt");
+    if (city.equalsIgnoreCase("Chicago") && business.equalsIgnoreCase(("restaurants"))) {
+      File dataFile = new File(userHomeDirectory + File.separator + "src" + File.separator + "Phonebook" + File.separator + "ChicagoRestaurants.txt");
       reader = new BufferedReader(new FileReader(dataFile));
       String line = reader.readLine();
 
