@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Phonebook.screen">
-  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="panelMain1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="823" height="400"/>
@@ -16,7 +16,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="2913c" class="javax.swing.JButton" binding="newYorkButton" default-binding="true">
+          <component id="2913c" class="javax.swing.JButton" binding="NewYorkButton">
             <constraints>
               <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -24,7 +24,7 @@
               <text value="New York"/>
             </properties>
           </component>
-          <component id="31ecc" class="javax.swing.JButton" binding="chicagoButton" default-binding="true">
+          <component id="31ecc" class="javax.swing.JButton" binding="ChicagoButton">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -32,7 +32,7 @@
               <text value="Chicago"/>
             </properties>
           </component>
-          <component id="2d97" class="javax.swing.JButton" binding="LAButton" default-binding="true">
+          <component id="2d97" class="javax.swing.JButton" binding="LosAngelesButton">
             <constraints>
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -40,7 +40,7 @@
               <text value="LA"/>
             </properties>
           </component>
-          <component id="d0950" class="javax.swing.JButton" binding="bostonButton" default-binding="true">
+          <component id="d0950" class="javax.swing.JButton" binding="BostonButton">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -58,7 +58,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="536f8" class="javax.swing.JButton" binding="restaurantButton" default-binding="true">
+          <component id="536f8" class="javax.swing.JButton" binding="RestaurantButton">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -66,7 +66,7 @@
               <text value="restaurant"/>
             </properties>
           </component>
-          <component id="52cd3" class="javax.swing.JButton" binding="schoolButton" default-binding="true">
+          <component id="52cd3" class="javax.swing.JButton" binding="SchoolButton">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -74,7 +74,7 @@
               <text value="school"/>
             </properties>
           </component>
-          <component id="d109a" class="javax.swing.JButton" binding="companyButton" default-binding="true">
+          <component id="d109a" class="javax.swing.JButton" binding="CompanyButton">
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -82,7 +82,7 @@
               <text value="company"/>
             </properties>
           </component>
-          <component id="285e" class="javax.swing.JButton" binding="emergencyButton" default-binding="true">
+          <component id="285e" class="javax.swing.JButton" binding="EmergencyButton">
             <constraints>
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -100,7 +100,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="34c63" class="javax.swing.JLabel" binding="cityname">
+          <component id="34c63" class="javax.swing.JLabel" binding="label1">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -108,7 +108,7 @@
               <text value="City"/>
             </properties>
           </component>
-          <component id="486d" class="javax.swing.JLabel" binding="categoryname">
+          <component id="486d" class="javax.swing.JLabel" binding="label2">
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -116,7 +116,7 @@
               <text value="Category"/>
             </properties>
           </component>
-          <component id="56813" class="javax.swing.JLabel" binding="contactNum">
+          <component id="56813" class="javax.swing.JLabel" binding="label3">
             <constraints>
               <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -178,7 +178,7 @@
               </component>
             </children>
           </grid>
-          <component id="816c6" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+          <component id="816c6" class="javax.swing.JTextField" binding="textCity">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -186,7 +186,7 @@
             </constraints>
             <properties/>
           </component>
-          <component id="e6385" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+          <component id="e6385" class="javax.swing.JTextField" binding="textCategory">
             <constraints>
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -194,7 +194,7 @@
             </constraints>
             <properties/>
           </component>
-          <component id="dd272" class="javax.swing.JLabel">
+          <component id="dd272" class="javax.swing.JLabel" binding="label4">
             <constraints>
               <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -202,7 +202,7 @@
               <text value="Contact"/>
             </properties>
           </component>
-          <component id="cfc27" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+          <component id="cfc27" class="javax.swing.JTextField" binding="textName">
             <constraints>
               <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -210,7 +210,7 @@
             </constraints>
             <properties/>
           </component>
-          <component id="58b1c" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+          <component id="58b1c" class="javax.swing.JTextField" binding="textPhone">
             <constraints>
               <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -228,7 +228,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="97d5c" class="javax.swing.JList" binding="list1" default-binding="true">
+          <component id="97d5c" class="javax.swing.JList" binding="listPeople">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="50"/>
