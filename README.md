@@ -1,14 +1,15 @@
 # FinalProjectComp271
 
-Project Title: Phonebooks 
-Team Members: 
+## Project Title: Phonebooks 
+## Team Members: 
 Adriana Ene - aene@luc.edu
 Karolina Senkow - ksenkow@luc.edu 
 Yu Jia - yjia1@luc.edu
-We will be meeting weekly via Zoom to discuss project progress. 
-Version control: https://github.com/yujia1/FinalProjectComp271
 
-Abstract:
+## We will be meeting weekly via Zoom to discuss project progress. 
+## github link: https://github.com/yujia1/FinalProjectComp271
+
+## Abstract:
 The goal of this project is to create an app which will display multiple phonebooks, which contains information about contact name, phone number, categories(School, Company, Emergency, Restaurant), and cities(Los Angeles, Boston, New York, Chicago). Additionally, this phone book will be presented in form of graphic. We design graphic of the phone book that contains features including save, add, remove, and search. Along with these feature, users are able to manipulate phone book information. Moreover, we also add some features about set up cities and categories. Users can use these functions to set up contact information. 
 
 We will be using multiple data structures for this project, including binary search, merge sort, recursion, and arraylist. 
@@ -22,10 +23,10 @@ Figure 2. When users select contact in list and click buttons of city section wh
 
 Figure 3. When users select contact in list, users can click buttons on functionality section where contains save, add, delete, and search fucntions. By these functions, users can achieve corresponding functions.
 
-Project Design:
+## Project Design:
 We will be using IntelliJ’s Android Studio plugin to create the app.
 
-Milestones: 
+## Milestones: 
 1. Created the app with its graphic layout. (Yu)
 
 2. created phone book class and screen. (Yu)
@@ -34,10 +35,10 @@ Milestones:
 
 4. Tested functions and data validation. (Yu)
 
-Contribution of project:
+## Contribution of project:
 
 Yu Jia completed the entire project, including graphic design, class creation, functions development, and back-test.
-My teammates, Adriana Ene and Senkow, cooperated together and developed their own phone book project that different with mine with aspect of data structure, function features, and grapic desgin. 
+Teammates, Adriana Ene and Senkow, cooperated together and developed their own phone book project that is different with Yu with aspect of data structure, function features, and grapic desgin. 
 
 
 
