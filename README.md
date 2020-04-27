@@ -35,14 +35,14 @@ We will be using IntelliJ’s Android Studio plugin to create the app.
 
 4. Tested functions and data validation. (Yu)
 
-## Contribution of project:
+## Participants and Workflow
 
 Yu Jia completed the entire project, including graphic design, class creation, functions development, and back-test.
 Teammates, Adriana Ene and Senkow, cooperated together and developed their own phone book project that is different with Yu with aspect of data structure, function features, and grapic desgin. 
 
 
 
-Related Projects:
+## Related Projects:
 http://math.hws.edu/eck/cs124/javanotes5/source/PhoneDirectoryFileDemo.java
 Our project will be different from this one because it will return all cases that contain the substring that the user searches for, whereas this code simply returns “name not found”.
 http://java.worldbestlearningcenter.com/2013/06/phonebook_4507.html
