@@ -2,9 +2,9 @@
 
 ## Project Title: Phonebooks 
 ## Team Members: 
+Yu Jia - yjia1@luc.edu
 Adriana Ene - aene@luc.edu
 Karolina Senkow - ksenkow@luc.edu 
-Yu Jia - yjia1@luc.edu
 
 ## We will be meeting weekly via Zoom to discuss project progress. 
 ## github link: https://github.com/yujia1/FinalProjectComp271
